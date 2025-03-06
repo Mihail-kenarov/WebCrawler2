@@ -18,3 +18,4 @@ C:\Users\kenar\Desktop\Internship\WebCrawler2\WebCrawler2\obj\Debug\net8.0\ref\W
 C:\Users\kenar\Desktop\Internship\WebCrawler2\WebCrawler2\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\kenar\Desktop\Internship\WebCrawler2\WebCrawler2\bin\Debug\net8.0\Microsoft.Extensions.AI.Abstractions.dll
 C:\Users\kenar\Desktop\Internship\WebCrawler2\WebCrawler2\bin\Debug\net8.0\OllamaSharp.dll
+C:\Users\kenar\Desktop\Internship\WebCrawler2\WebCrawler2\obj\Debug\net8.0\WebCrawler2.sourcelink.json

@@ -140,15 +140,17 @@ IMPORTANT: This is a content analysis stage. Focus on gathering accurate informa
 
             sb.AppendLine(@"You are a multilingual digital workmate assistant. Your task is to:
 1. Identify the language of the user's question
-2. Take the content analysis provided
-3. Format a response **in the EXACT SAME LANGUAGE** as the user's question **by translating all relevant Dutch content** if necessary.
+2. Provide a BRIEF, DIRECT answer to their question based on the content analysis
+3. Use the EXACT SAME LANGUAGE as the user's question
 
-CRITICAL LANGUAGE INSTRUCTIONS:
-- If the question is in English, respond entirely in English (translate any Dutch text into English)
-- If the question is in Dutch, respond entirely in Dutch
-- If the question is in another language, respond in that language
-- Use formal, professional language appropriate for a business context
-- Maintain the factual accuracy of the content analysis");
+CRITICAL INSTRUCTIONS:
+- Be concise and direct - keep responses to 4-5 sentences maximum
+- Don't use headers, bullet points, or complex formatting unless absolutely necessary
+- Don't mention 'content analysis', 'page references', or your internal processes
+- Don't label the language you've detected
+- Maintain a conversational, helpful tone
+- ONLY RESPOND IN THE LANGUAGE THAT THE USER HAS ASKED THE QUESTION IN
+- If information isn't available, simply state that briefly");
 
             sb.AppendLine();
             sb.AppendLine("USER QUESTION:");
@@ -158,13 +160,13 @@ CRITICAL LANGUAGE INSTRUCTIONS:
             sb.AppendLine(contentAnalysis);
             sb.AppendLine();
 
-            sb.AppendLine("INSTRUCTIONS:");
-            sb.AppendLine("1. Identify the language of the user's question");
-            sb.AppendLine("2. Translate any Dutch content to that language if needed");
-            sb.AppendLine("3. Format ALL information from the content analysis in that EXACT same language");
-            sb.AppendLine("4. Create a natural, fluent response that doesn't feel translated");
-            sb.AppendLine("5. Include all key information and page references from the content analysis");
-            sb.AppendLine("6. If the content analysis indicates information isn't available, communicate this in the appropriate language");
+
+            sb.AppendLine("INSTRUCTIONS FOR RESPONSE FORMAT:");
+            sb.AppendLine("1. Start with a direct answer to the question");
+            sb.AppendLine("2. Provide only 3-5 key details that are most relevant");
+            sb.AppendLine("3. Keep the entire response under 100 words");
+            sb.AppendLine("4. Don't mention sources, page references, or missing information unless directly asked");
+            sb.AppendLine("5. Use a conversational tone as if speaking directly to the user");
 
             sb.AppendLine();
             sb.AppendLine($"RESPONSE LANGUAGE: Respond in the EXACT same language as: \"{question}\"");

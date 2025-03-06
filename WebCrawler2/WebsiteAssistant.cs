@@ -198,7 +198,7 @@ namespace WebCrawler2
             })
             .Where(item => item.score > 0)
             .OrderByDescending(item => item.score)
-            .Take(3) // Take top 3 most relevant pages
+            .Take(5) // Take top 3 most relevant pages
             .ToList();
 
             var sb = new StringBuilder();
