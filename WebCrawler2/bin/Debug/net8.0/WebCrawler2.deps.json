@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebCrawler2/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.74",
+          "OllamaSharp": "5.1.4"
+        },
+        "runtime": {
+          "WebCrawler2.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.74": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.74.0",
+            "fileVersion": "1.11.74.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "9.3.0.0",
+            "fileVersion": "9.300.25.11411"
+          }
+        }
+      },
+      "OllamaSharp/5.1.4": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
+          "Microsoft.Extensions.AI.Abstractions": "9.3.0-preview.1.25114.11"
+        },
+        "runtime": {
+          "lib/net8.0/OllamaSharp.dll": {
+            "assemblyVersion": "5.1.4.0",
+            "fileVersion": "5.1.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebCrawler2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.74": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q0wRGbegtr4sZXjCNoV3OeRLTOcTNJQKiO9etNVSKPoTo33unmSK8Ahg36C4jIg/Hd3aw8YnTQjtKpBy+wlOpg==",
+      "path": "htmlagilitypack/1.11.74",
+      "hashPath": "htmlagilitypack.1.11.74.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-owmu2Cr3IQ8yQiBleBHlGk8dSQ12oaF2e7TpzwJKEl4m84kkZJjEY1n33L67Y3zM5jPOjmmbdHjbfiL0RqcMRQ==",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.3.0-preview.1.25114.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh5RqAGzOUTSnx6vLrQqVH5LJXSPYmMF8/worfSmKiJ18blVQRHLqvpcc/JhSdFf/3YTOk2PPpWSX1PK+cbiPQ==",
+      "path": "microsoft.extensions.ai.abstractions/9.3.0-preview.1.25114.11",
+      "hashPath": "microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512"
+    },
+    "OllamaSharp/5.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+z+jNyiI31S8n6h61aNCE3lDX6X6R2coS8F7NTmD6IUBnp8jGO40Fr9HL31X1IwLRxhY1S7pXg1mATi2JZEI1g==",
+      "path": "ollamasharp/5.1.4",
+      "hashPath": "ollamasharp.5.1.4.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ZzdHr/Z5Ig=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kenar\\Desktop\\Internship\\WebCrawler2\\WebCrawler2\\WebCrawler2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kenar\\.nuget\\packages\\htmlagilitypack\\1.11.74\\htmlagilitypack.1.11.74.nupkg.sha512",
+    "C:\\Users\\kenar\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+    "C:\\Users\\kenar\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25114.11\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
+    "C:\\Users\\kenar\\.nuget\\packages\\ollamasharp\\5.1.4\\ollamasharp.5.1.4.nupkg.sha512"
+  ],
+  "logs": []
+}
